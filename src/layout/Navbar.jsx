@@ -9,6 +9,7 @@ const navLinks = [
   { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
   { href: "#testimonials", label: "Testimonials" },
+  { href: "https://blogs-app-nine-tau.vercel.app/", label: "Blogs" },
 ];
 
 const Navbar = () => {
