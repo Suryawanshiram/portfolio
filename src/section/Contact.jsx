@@ -147,7 +147,6 @@ export const Contact = () => {
                   Email
                 </label>
                 <input
-                  required
                   placeholder="your@email.com"
                   value={formData.email}
                   onChange={(e) =>
@@ -169,7 +168,6 @@ export const Contact = () => {
                 </label>
                 <textarea
                   rows={5}
-                  required
                   value={formData.message}
                   onChange={(e) =>
                     setFormData({ ...formData, message: e.target.value })
